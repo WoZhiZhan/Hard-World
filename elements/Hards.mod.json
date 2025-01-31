@@ -1,0 +1,181 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sheng_wu_bei_sha_si_you_gai_lu_fu_huo",
+          "text": {
+            "fixedValue": "生物被杀死有概率复活："
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 42
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_geng_gai",
+          "text": "更改",
+          "onClick": {
+            "name": "Hard"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 259,
+          "y": 41
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_gong_ji_sheng_wu_you_ji_lu_bei_jiao_jie",
+          "text": {
+            "fixedValue": "攻击生物有几率被缴械："
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 69
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_geng_gai1",
+          "text": "更改",
+          "width": 35,
+          "height": 20,
+          "x": 259,
+          "y": 66
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_gong_ji_sheng_wu_you_ji_lu_wu_qi_zhi_jie_xiao_shi",
+          "text": {
+            "fixedValue": "攻击生物有几率武器直接消失："
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 97
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_geng_gai2",
+          "text": "更改",
+          "width": 35,
+          "height": 20,
+          "x": 259,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sheng_wu_si_wang_sui_ji_jia_xie",
+          "text": {
+            "fixedValue": "生物死亡随机加血："
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 125
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_geng_gai3",
+          "text": "更改",
+          "width": 35,
+          "height": 20,
+          "x": 258,
+          "y": 121
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sheng_wu_si_wang_sui_ji_zeng_jia_yi_su",
+          "text": {
+            "fixedValue": "生物死亡随机增加移速："
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 152
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_geng_gai4",
+          "text": "更改",
+          "width": 35,
+          "height": 20,
+          "x": 258,
+          "y": 148
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sui_ji_gong_ji_shang_hai",
+          "text": {
+            "fixedValue": "随机攻击伤害："
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 179
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_geng_gai5",
+          "text": "更改",
+          "width": 35,
+          "height": 20,
+          "x": 258,
+          "y": 175
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

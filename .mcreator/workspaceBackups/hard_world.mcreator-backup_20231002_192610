@@ -1,0 +1,138 @@
+{
+  "mod_elements": [
+    {
+      "name": "Hard",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/wzz/hard_world/procedures/HardProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Hards",
+      "type": "gui",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hards",
+      "metadata": {
+        "files": [
+          "src/main/java/net/wzz/hard_world/network/HardsButtonMessage.java",
+          "src/main/java/net/wzz/hard_world/client/gui/HardsScreen.java",
+          "src/main/java/net/wzz/hard_world/world/inventory/HardsMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "OpenGuiDangYouJianDianJiKongQiShi",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_gui_dang_you_jian_dian_ji_kong_qi_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/wzz/hard_world/procedures/OpenGuiDangYouJianDianJiKongQiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenGui",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/wzz/hard_world/item/OpenGuiItem.java",
+          "src/main/resources/assets/hard_world/models/item/open_gui.json"
+        ]
+      }
+    },
+    {
+      "name": "A",
+      "type": "gui",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/wzz/hard_world/world/inventory/AMenu.java",
+          "src/main/java/net/wzz/hard_world/client/gui/AScreen.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gui.hard_world.hards.label_sui_ji_gong_ji_shang_hai": "随机攻击伤害：",
+      "gui.hard_world.hards.label_sheng_wu_bei_sha_si_you_gai_lu_fu_huo": "生物被杀死有概率复活：",
+      "gui.hard_world.hards.label_sheng_wu_si_wang_sui_ji_zeng_jia_yi_su": "生物死亡随机增加移速：",
+      "gui.hard_world.hards.button_geng_gai5": "更改",
+      "gui.hard_world.hards.button_geng_gai3": "更改",
+      "gui.hard_world.hards.button_geng_gai4": "更改",
+      "gui.hard_world.hards.button_geng_gai1": "更改",
+      "gui.hard_world.hards.button_geng_gai2": "更改",
+      "item.hard_world.open_gui": "打开困难世界设置面包",
+      "gui.hard_world.hards.label_gong_ji_sheng_wu_you_ji_lu_bei_jiao_jie": "攻击生物有几率被缴械：",
+      "gui.hard_world.a.button_next": "next",
+      "gui.hard_world.hards.label_gong_ji_sheng_wu_you_ji_lu_wu_qi_zhi_jie_xiao_shi": "攻击生物有几率武器直接消失：",
+      "gui.hard_world.hards.button_geng_gai": "更改",
+      "gui.hard_world.hards.label_sheng_wu_si_wang_sui_ji_jia_xie": "生物死亡随机加血："
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "hard_world",
+    "modName": "HardWorld",
+    "version": "1.0.0",
+    "author": "Administrator, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.wzz.hard_world",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

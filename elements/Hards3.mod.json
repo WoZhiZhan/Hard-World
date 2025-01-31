@@ -1,0 +1,114 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sheng_wu_sui_ji_gong_ji_ji_tui",
+          "text": {
+            "fixedValue": "生物随机攻击击退："
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 133,
+          "y": 47
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_geng_gai",
+          "text": "更改",
+          "width": 35,
+          "height": 20,
+          "x": 257,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sheng_wu_sui_ji_ji_tui_kang_xing",
+          "text": {
+            "fixedValue": "生物随机击退抗性："
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 133,
+          "y": 76
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_geng_gai1",
+          "text": "更改",
+          "width": 35,
+          "height": 20,
+          "x": 257,
+          "y": 73
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sheng_wu_sui_ji_zeng_jia_hu_jia_zhi",
+          "text": {
+            "fixedValue": "生物随机增加护甲值："
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 133,
+          "y": 106
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_geng_gai2",
+          "text": "更改",
+          "width": 35,
+          "height": 20,
+          "x": 257,
+          "y": 103
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_wan_cheng",
+          "text": "完成",
+          "onClick": {
+            "name": "Over"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 305,
+          "y": 178
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

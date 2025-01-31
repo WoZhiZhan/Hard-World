@@ -1,0 +1,17 @@
+{
+  "revive": true,
+  "disarm": true,
+  "Vanishing Weapon": true,
+  "Death plus life": true,
+  "Death increases speed": true,
+  "Random attack damage": false,
+  "attack damage": 100,
+  "give book": true,
+  "Break Block Spawn TNT": true,
+  "break Block Lightning": true,
+  "damage Entity Lightning": true,
+  "reduce MaxHealth": true,
+  "Random AttackKNOCKBACK": true,
+  "Random KNOCKBACK_RESISTANCE": true,
+  "Random ARMOR": true
+}

@@ -1,0 +1,73 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sui_ji_shang_hai_fan_wei",
+          "text": {
+            "fixedValue": "随机伤害范围："
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 43
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "+",
+          "width": 30,
+          "height": 20,
+          "x": 154,
+          "y": 67
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "-",
+          "width": 30,
+          "height": 20,
+          "x": 242,
+          "y": 67
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_wan_cheng",
+          "text": "完成",
+          "onClick": {
+            "name": "Over"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 305,
+          "y": 179
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

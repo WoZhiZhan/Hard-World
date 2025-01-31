@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/net/wzz/hard_world/HardWorldMod.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/wzz/hard_world/client/gui/Hards2Screen.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/wzz/hard_world/client/gui/Hards3Screen.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/wzz/hard_world/client/gui/HardsScreen.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/wzz/hard_world/command/ClearMashCommand.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/wzz/hard_world/procedures/HardProcedure.java" charset="UTF-8" />
+  </component>
+</project>
